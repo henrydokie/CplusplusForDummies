@@ -1,0 +1,26 @@
+#include <iostream>
+#include <stdlib.h>
+#include <string>
+using namespace std;
+
+void PrintName(string first, string last)
+{
+  string fullname = first + " " + last;
+  cout << fullname << endl;
+}
+
+/*
+int main(int argc, char *argv[])
+{
+  PrintName("Thomas", "Jefferson");
+  return 0;
+}
+*/
+
+int main(int argc, char *argv[])
+{
+  string fullname = "Abraham Lincoln";
+  PrintName("Thomas", "Jefferson");
+  cout << fullname << endl;
+  return 0;
+}
